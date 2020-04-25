@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
     
     fileprivate func setupNavigation() {
-        navigationItem.title = "Restaurants"
+        navigationItem.title = viewModel.title
         navigationController?.navigationBar.prefersLargeTitles = true
         tableView.contentInsetAdjustmentBehavior = .never
     }
